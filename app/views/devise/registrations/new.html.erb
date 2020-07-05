@@ -4,11 +4,6 @@
   <h1>新規登録</h1>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="box-name">
-  <%= f.label :お名前 %><br />
-  <%= f.text_field :name, autofocus: true, autocomplete: "name" %>
-</div>
-
   <div class="box-email">
     <%= f.label :メールアドレス %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
